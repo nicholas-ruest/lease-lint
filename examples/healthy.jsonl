@@ -1,0 +1,5 @@
+{"seq":1,"at_ms":1000,"resource":"gateway/us-east","type":"grant","owner":"node-a","epoch":41,"lease_until_ms":4000}
+{"seq":2,"at_ms":2000,"resource":"gateway/us-east","type":"action","owner":"node-a","epoch":41,"operation":"dispatch-job-7"}
+{"seq":3,"at_ms":3000,"resource":"gateway/us-east","type":"renew","owner":"node-a","epoch":41,"lease_until_ms":6000}
+{"seq":4,"at_ms":4500,"resource":"gateway/us-east","type":"grant","owner":"node-b","epoch":42,"lease_until_ms":8000}
+{"seq":5,"at_ms":5000,"resource":"gateway/us-east","type":"action","owner":"node-b","epoch":42,"operation":"dispatch-job-8"}

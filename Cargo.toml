@@ -1,0 +1,23 @@
+[package]
+name = "lease-lint"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Audit lease and fencing-token event streams for stale-owner actions"
+license = "MIT"
+repository = "https://github.com/nicholas-ruest/lease-lint"
+readme = "README.md"
+keywords = ["distributed-systems", "lease", "fencing", "audit", "cli"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
+clap = { version = "4.5.48", features = ["derive"] }
+serde = { version = "1.0.226", features = ["derive"] }
+serde_json = "1.0.145"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "deny"
+pedantic = "deny"
